@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(lifecycle_msgs)
 
-find_package(catkin REQUIRED
+find_package(catkin2 REQUIRED
   COMPONENTS
   message_generation
   actionlib_msgs
