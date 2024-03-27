@@ -94,7 +94,7 @@ using namespace ros;
 					<< " failed, won't activate");
 				}
 			} catch(const std::exception& ex) {
-				ROS_ERROR_STREAM("Error when enabling "
+				ROS_INFO_STREAM("Error when enabling "
 						<< ros::this_node::getName() << ": " << ex.what());
 			} catch(...) {
 				ROS_ERROR_STREAM("Unknown error when enabling "
